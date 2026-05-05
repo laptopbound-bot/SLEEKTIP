@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skeeltip.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main_container">
+        <div id="container">
+            <div id="sleek"><img src="home.png" alt=""><span id="logotext">SleekTip</span></div>
+            <p id="p1">Calculate your tip with elegance</p>
+            <p id="p2">💰 Bill Amount ($)</p>
+            <input type="number" id="bill">
+            <p id="p3">🎯 Tip Percentage</p>
+            <input type="range" min="0" max="50" id="range" value="0">
+            <span id="tip-percentage">0%</span>
+            <p id="p4">👥 Number of People</p>
+            <input type="text" id="people" value="">
+            <button id="calculate" onclick="calculateTip()">💡 Calculate Tip</button>
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+<script src="skeeltip.js"></script>
+
+</html>
